@@ -1,0 +1,28 @@
+name: farmer
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^0.8.4+4
+  path_provider: ^2.1.5
+  http: ^0.13.3
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+assets:
+    - assets/farm_image.jpg
+    - assets/explore_image.jpg
+    - assets/profile_image.jpg
